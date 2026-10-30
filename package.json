@@ -1,0 +1,18 @@
+{
+  "name": "streamforge",
+  "version": "1.0.0",
+  "description": "AI Live Growth Co-Pilot for Twitch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@twurple/api": "^7.2.1",
+    "@twurple/auth": "^7.2.1",
+    "@twurple/eventsub-ws": "^7.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "openai": "^5.0.0",
+    "socket.io": "^4.8.1"
+  }
+}
